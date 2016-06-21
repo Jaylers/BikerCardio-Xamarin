@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BikerCardio.Page.RegisterPage"
+             BackgroundImage="backgroundlightred.jpg">
+  
+  <StackLayout>
+    <Image Source="coverphoto.jpg" />
+    <Grid Padding="30,0,30,5">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+          <RowDefinition />
+          <RowDefinition />
+          <RowDefinition />
+          <RowDefinition />
+          <RowDefinition />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Label Text="Email"
+             TextColor="White"
+             Grid.Row="0"
+             Grid.Column="0"
+             VerticalOptions="End"/>
+      <Entry Placeholder="Biker@Example.com"
+             PlaceholderColor="Red"
+             BackgroundColor="White"
+             Grid.Row="1"
+             Grid.Column="0"
+             x:Name="EmailText"/>
+      <Label Text="Password"
+             TextColor="White"
+             Grid.Row="2"
+             Grid.Column="0"
+             VerticalOptions="End"/>
+      <Entry Placeholder="Password"
+             PlaceholderColor="Red"
+             BackgroundColor="White"
+             IsPassword="True"
+             Grid.Row="3"
+              Grid.Column="0"
+             x:Name="PasswordText"/>
+      <Label Text="Repeat Password"
+             TextColor="White"
+             Grid.Row="4"
+              Grid.Column="0"
+             VerticalOptions="End"/>
+      <Entry Placeholder="Password"
+             PlaceholderColor="Red"
+             BackgroundColor="White"
+             IsPassword="True"
+             Grid.Row="5"
+              Grid.Column="0"
+             x:Name="RePasswordText"/>
+    </Grid>
+    
+    <Grid Padding="30,20,30,0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+          <ColumnDefinition />
+      </Grid.ColumnDefinitions>
+      <Button Text="Reset"
+              Clicked="ResetButton_OnClicked"
+              BorderColor="Gray"
+              BackgroundColor="Gray"
+              TextColor="White"
+              Grid.Row="0"
+              Grid.Column="0"
+              x:Name="ResetButton"/>
+      <Button Text="Register"
+              Clicked="RegButton_OnClicked"
+              BorderColor="Gray"
+              BackgroundColor="Gray"
+              TextColor="White"
+              Grid.Row="0"
+              Grid.Column="1"
+              Grid.ColumnSpan="2"
+              x:Name="RegButton"/>
+    </Grid>
+  </StackLayout>
+  
+</ContentPage>

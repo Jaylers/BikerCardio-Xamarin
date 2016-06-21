@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BikerCardio.Page.LoginPage"
+             BackgroundImage="backgroundred.jpg"
+             Title="Biker Cardio">
+    <StackLayout Padding="20" >
+    <Label Text="Biker's Cardio"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" 
+           FontSize="40" 
+           TextColor="White"
+           FontAttributes="Bold"/>
+    
+    <Image Source="applogo.png"
+           HorizontalOptions="Center" />  
+    <ActivityIndicator x:Name="waitActivityIndicator"/>
+    <Grid Padding="30,0,30,0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      
+      <Entry  x:Name="EmailText"
+            Placeholder="Email"
+            BackgroundColor="White"
+              PlaceholderColor="Red"
+            Grid.Row="0"
+            Grid.Column="0"/>
+      <Entry  x:Name="PasswordText"
+            Placeholder="Password"
+            BackgroundColor="White"
+              PlaceholderColor="Red"
+            Grid.Row="1"
+            Grid.Column="0"/>
+    </Grid>
+
+    <Grid Padding="30,0,30,0">
+  <Grid.RowDefinitions>
+    <RowDefinition Height="*" />
+    <RowDefinition Height="*" />
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="*" />
+    <ColumnDefinition Width="*" />
+  </Grid.ColumnDefinitions>
+      <Button x:Name="RegButton"
+        Text="Register"
+        TextColor="White" 
+        Grid.Row="0" Grid.Column="0"
+        BorderColor="White"
+        BackgroundColor="Gray" 
+        Clicked="RegButton_OnClicked"/>
+      <Button x:Name="LogInButton"
+        Text="Log in"
+        TextColor="White"
+        Grid.Row="0" Grid.Column="1"
+        BorderColor="White" 
+        BackgroundColor="Gray"
+        FontAttributes="Bold"
+        Clicked="LogInButton_OnClicked" />
+      <Label Text="Forgot Password?"
+        HorizontalOptions="End"
+        TextColor="White"
+        Grid.Row="1"
+        Grid.Column="0"
+        Grid.ColumnSpan="2"/>
+</Grid>
+   
+    <Label Text="Copyright © by Jaylerr and Tanger Team" 
+           VerticalTextAlignment="End" 
+           VerticalOptions="End" 
+           TranslationY="100"/>
+  
+  </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,17 @@
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\BikerCardio.dll
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\BikerCardio.pdb
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\Xamarin.Forms.Core.dll
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\Xamarin.Forms.Core.xml
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\obj\Debug\BikerCardio.csprojResolveAssemblyReference.cache
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\obj\Debug\BikerCardio.Page.LoginPage.xaml.g.cs
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\obj\Debug\BikerCardio.Page.RegisterPage.xaml.g.cs
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\obj\Debug\BikerCardio.Page.MainPage.xaml.g.cs
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\obj\Debug\BikerCardio.dll
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\obj\Debug\BikerCardio.pdb
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\Newtonsoft.Json.dll
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\Newtonsoft.Json.xml
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\obj\Debug\BikerCardio.dll.mdb
+E:\Xamarin Project\BikerCardio\BikerCardio\BikerCardio\bin\Debug\BikerCardio.dll.mdb
